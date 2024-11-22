@@ -16,3 +16,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title + "\n" + self.description
+    
+class model_(models.Model):
+    title_ = models.CharField(max_length=200)
+    description_ = description = models.TextField()
